@@ -4,3 +4,4 @@ resources:
 - default
 - flagger-system
 - monitoring
+- rabbitmq
