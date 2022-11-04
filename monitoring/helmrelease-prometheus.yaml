@@ -13,3 +13,7 @@ spec:
         kind: HelmRepository
         name: prometheus-community
   interval: 1m0s
+  values:
+    kubeEtcd:
+      service:
+        targetPort: 2381
