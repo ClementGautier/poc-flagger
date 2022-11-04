@@ -3,6 +3,7 @@ kind: Kustomization
 resources:
 - default
 - flagger-system
+- flux-system
 - ingress-nginx
 - monitoring
 - rabbitmq
